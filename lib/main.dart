@@ -70,6 +70,7 @@ class home extends StatelessWidget {
                 child: CircleAvatar(
                     radius: 80,
                     child: Icon(Icons.egg_outlined,size: 80,)
+
                 ),
               ),
 
