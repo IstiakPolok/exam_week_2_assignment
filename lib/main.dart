@@ -52,7 +52,7 @@ class home extends StatelessWidget {
 
               Text("Ice cream is very delicious right?",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),),
               SizedBox(
-                height: 20,
+                height: 30,
               ),
               Padding(
                 padding: EdgeInsets.all(10),
@@ -63,7 +63,7 @@ class home extends StatelessWidget {
               ),
               Text("Programming is not bornig if you love it",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20)),
               SizedBox(
-                height: 20,
+                height: 30,
               ),
               Padding(
                 padding: EdgeInsets.all(10),
@@ -72,10 +72,7 @@ class home extends StatelessWidget {
                     child: Icon(Icons.egg_outlined,size: 80,)
                 ),
               ),
-              Padding(
-                padding: EdgeInsets.only(left: 5,right: 5),
-                child: Text("If you submit code directly cope from chatgpt then mark will 0",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20)),
-              ),
+
 
             ],
           ),
