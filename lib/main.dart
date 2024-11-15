@@ -52,7 +52,7 @@ class home extends StatelessWidget {
                  ),
 
 
-              Text("Ice cream is very delicious right?",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),),
+              Text("Ice cream is very delicious right?",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18),),
               SizedBox(
                 height: 30,
               ),
@@ -66,7 +66,7 @@ class home extends StatelessWidget {
                                    ),
                  ),
 
-              Text("Programming is not bornig if you love it",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20)),
+              Text("Programming is not bornig if you love it",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18)),
               SizedBox(
                 height: 30,
               ),
