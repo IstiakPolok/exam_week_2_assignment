@@ -35,13 +35,13 @@ class home extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         child: Center(
-            
+
           child: Column(
-        
+
             children: [
               Padding(
                 padding: EdgeInsets.all(10),
-        
+
                 child: Container(
                   child: CircleAvatar(
                       radius: 80,
@@ -50,6 +50,9 @@ class home extends StatelessWidget {
                 ),
               ),
               Text("Ice cream is very delicious right?",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),),
+              SizedBox(
+                height: 20,
+              ),
               Padding(
                 padding: EdgeInsets.all(10),
                 child: CircleAvatar(
@@ -58,6 +61,9 @@ class home extends StatelessWidget {
                 ),
               ),
               Text("Programming is not bornig if you love it",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20)),
+              SizedBox(
+                height: 20,
+              ),
               Padding(
                 padding: EdgeInsets.all(10),
                 child: CircleAvatar(
@@ -75,6 +81,6 @@ class home extends StatelessWidget {
         ),
       ),
     );
-    
+
   }
 }
