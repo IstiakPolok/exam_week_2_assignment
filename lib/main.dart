@@ -12,12 +12,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: home(),
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(appBarTheme: AppBarTheme(backgroundColor: Colors.amber),),
+      theme: ThemeData(
+        appBarTheme: AppBarTheme(backgroundColor: Colors.amber),
+      ),
     );
   }
 }
-
-
 
 class home extends StatelessWidget {
   const home({super.key});
@@ -35,58 +35,53 @@ class home extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         child: Center(
-
           child: Column(
-
             children: [
-
-
-                 Padding(
-                   padding: EdgeInsets.all(10),
-                   child: Container(
-                    child: CircleAvatar(
-                        radius: 80,
-                        child: Icon(Icons.icecream_outlined,size: 80,)
-                    ),
-                                   ),
-                 ),
-
-
-              Text("Ice cream is very delicious right?",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18),),
+              Padding(
+                padding: EdgeInsets.all(10),
+                child: Container(
+                  child: CircleAvatar(
+                      radius: 80,
+                      child: Icon(
+                        Icons.icecream_outlined,
+                        size: 80,
+                      )),
+                ),
+              ),
+              Text(
+                "Ice cream is very delicious right?",
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+              ),
               SizedBox(
                 height: 30,
               ),
-
-
-                 Padding(
-                   padding: EdgeInsets.all(10),
-                   child: CircleAvatar(
-                      radius: 80,
-                      child: Icon(Icons.code,size: 80,)
-                                   ),
-                 ),
-
-              Text("Programming is not bornig if you love it",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18)),
+              Padding(
+                padding: EdgeInsets.all(10),
+                child: CircleAvatar(
+                    radius: 80,
+                    child: Icon(
+                      Icons.code,
+                      size: 80,
+                    )),
+              ),
+              Text("Programming is not bornig if you love it",
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
               SizedBox(
                 height: 30,
               ),
-
-                 Padding(
-                   padding: EdgeInsets.all(10),
-                   child: CircleAvatar(
-                      radius: 80,
-                      child: Icon(Icons.egg_outlined,size: 80,)
-
-                                   ),
-                 ),
-
-
-
+              Padding(
+                padding: EdgeInsets.all(10),
+                child: CircleAvatar(
+                    radius: 80,
+                    child: Icon(
+                      Icons.egg_outlined,
+                      size: 80,
+                    )),
+              ),
             ],
           ),
         ),
       ),
     );
-
   }
 }
