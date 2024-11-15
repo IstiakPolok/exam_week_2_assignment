@@ -49,6 +49,7 @@ class home extends StatelessWidget {
                   ),
                 ),
               ),
+
               Text("Ice cream is very delicious right?",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),),
               SizedBox(
                 height: 20,
