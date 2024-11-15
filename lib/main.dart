@@ -39,40 +39,47 @@ class home extends StatelessWidget {
           child: Column(
 
             children: [
-              Padding(
-                padding: EdgeInsets.all(10),
 
-                child: Container(
-                  child: CircleAvatar(
-                      radius: 80,
-                      child: Icon(Icons.icecream_outlined,size: 80,)
-                  ),
-                ),
-              ),
+
+                 Padding(
+                   padding: EdgeInsets.all(10),
+                   child: Container(
+                    child: CircleAvatar(
+                        radius: 80,
+                        child: Icon(Icons.icecream_outlined,size: 80,)
+                    ),
+                                   ),
+                 ),
+
 
               Text("Ice cream is very delicious right?",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),),
               SizedBox(
                 height: 30,
               ),
-              Padding(
-                padding: EdgeInsets.all(10),
-                child: CircleAvatar(
-                    radius: 80,
-                    child: Icon(Icons.code,size: 80,)
-                ),
-              ),
+
+
+                 Padding(
+                   padding: EdgeInsets.all(10),
+                   child: CircleAvatar(
+                      radius: 80,
+                      child: Icon(Icons.code,size: 80,)
+                                   ),
+                 ),
+
               Text("Programming is not bornig if you love it",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20)),
               SizedBox(
                 height: 30,
               ),
-              Padding(
-                padding: EdgeInsets.all(10),
-                child: CircleAvatar(
-                    radius: 80,
-                    child: Icon(Icons.egg_outlined,size: 80,)
 
-                ),
-              ),
+                 Padding(
+                   padding: EdgeInsets.all(10),
+                   child: CircleAvatar(
+                      radius: 80,
+                      child: Icon(Icons.egg_outlined,size: 80,)
+
+                                   ),
+                 ),
+
 
 
             ],
